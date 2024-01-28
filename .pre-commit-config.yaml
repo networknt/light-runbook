@@ -7,7 +7,7 @@ repos:
     -   id: check-yaml
     -   id: check-added-large-files
 -   repo: https://github.com/networknt/pre-commit-hook-keyword
-    rev: 8c0fb353adde2be4d61adc6bb8aa91d6a812e9c0
+    rev: 356f23a9acfcc8ac12697412e886483d2125cccd
     hooks:
     -   id: keywordscan
         args: ["--keywords=abcdef,xyzuvw,opqrst"]
